@@ -5,7 +5,7 @@ import pylab
 
 # XT(k) = A*X(k-1)+B*U(k-1)+W(k), A=1, U(k)=0, W(k)~N(0,Q)
 # Z(k) = H*X(k)+V(k), H=1, V(k)~N(0,R)
-# PT(k) = APT(t-1)A'+Q
+# PT(k) = A*PT(t-1)*A'+Q
 # K(k) = PT(k)*H'/(H*PT(k)*H'+Q)
 # X(K) = XT(k)+K(k)*(Z(k)-H*XT(k))
 # P(k) = (1-H*K(k))*PT(k)
